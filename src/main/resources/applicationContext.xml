@@ -8,7 +8,7 @@
         http://www.springframework.org/schema/beans/spring-context.xsd">
 
      <bean id="MusicBean"
-              class="org.example.RockMusic">
+              class="org.example.PopMusic">
      </bean>
 
 </beans>

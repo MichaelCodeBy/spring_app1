@@ -9,8 +9,7 @@ public class MusicPlayer {
         return name;
     }
 
-    public void setName(String name) {
-        this.name = name;
+    public void setName(String name) {this.name = name;
     }
 
     private int volume;
@@ -23,20 +22,16 @@ public class MusicPlayer {
         this.volume = volume;
     }
 
-
     //IoC
-    public MusicPlayer(Music music) {
-        this.music = music;
+    public MusicPlayer(Music music) {this.music = music;
     }
 
     public MusicPlayer() {
     }
 
-    public void setMusic(Music music) {
-        this.music = music;
+    public void setMusic(Music music) {this.music = music;
     }
 
-    public void playMusic() {
-        System.out.println("Playing: " + music.getSong());
+    public void playMusic() {System.out.println("Playing: " + music.getSong());
     }
 }
